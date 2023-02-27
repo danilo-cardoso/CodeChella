@@ -20,11 +20,11 @@
     padding: 1rem;
 }
 
-.lista__item:last-child {
+.menu__lista__item:last-child {
     border: none;
 }
 
-.lista__item {
+.menu__lista__item {
     text-align: center;
     padding: 0.5rem;
     line-height: 2.5rem;

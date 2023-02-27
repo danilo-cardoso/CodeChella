@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@500;700&display=swap');
+@import url(header.css);
+
+:root {
+    --background-header: #4650BD;
+    --branco-texto: #FFFFFF;
+    --background-gradiente: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --verde-botao: #008364;
+
+    --fonte-principal: 'Raleway', sans-serif;
+    --fonte-secundaria: 'Calistoga', sans-serif;
+
+    --tamanho-principal: 1.25rem;
+    --tamanho-secundario: 2rem;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: var(--tamanho-principal);
+    background: var(--background-gradiente);
+    background-repeat: no-repeat;
+    font-weight: 500;
+    color: var(--branco-texto);
+}

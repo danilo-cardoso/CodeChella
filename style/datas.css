@@ -1,0 +1,25 @@
+.datas {
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+.datas__titulo {
+    font-size: var(--tamanho-secundario);
+    font-weight: 700;
+    line-height: 2.375rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.datas__botao {
+    margin-top: 2rem;
+    background-image: url(../img/local_activity.svg);
+    background-repeat: no-repeat;
+    background-position: top 50% right 2.75rem;
+    background-color: var(--background-header);
+    border-radius: 16px;
+    display: block;
+    box-shadow: 4px 4px 0px #444444;
+    padding: 0.5rem 2.75rem;
+    width: 62.2vw;
+    text-align: start;
+}

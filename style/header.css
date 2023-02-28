@@ -31,3 +31,24 @@
     font-weight: 700;
     border-bottom: 1px solid var(--branco-texto);
 }
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+
+    .cabecalho__menu {
+        display: none;
+    }
+
+    .menu__lista {
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .menu__lista__item {
+        border: none;
+    }
+}

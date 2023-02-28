@@ -61,3 +61,13 @@ content: url(../img/arrow_drop_down.png);
 .perguntas__lista__item:last-child {
     border: none;
 }
+
+@media screen and (min-width: 768px){
+    .perguntas {
+        padding: 3rem 3.75rem;
+    }
+
+    .perguntas__titulo {
+        font-size: 3rem;
+    }
+}

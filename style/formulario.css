@@ -50,3 +50,23 @@
     background: var(--background-header) url(../img/setinha.svg) no-repeat;
     background-position: top 50% right 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .secao-formulario {
+        color: var(--branco-texto);
+        padding: 3rem 3.75rem;
+    }
+
+    .secao-formulario__titulo {
+        font-size: 3rem;
+    }
+
+    .formulario__container input, .formulario__container select {
+        color: #7A7A7A;
+        padding: 0 2rem;
+    }
+
+    #data {
+        width: 26rem;
+    }
+}

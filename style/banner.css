@@ -1,5 +1,19 @@
+.banner__imagem--desktop {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .banner__imagem {
         width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner__imagem--desktop {
+        display: block;
+    }
+
+    .banner__imagem {
+        display: none;
     }
 }

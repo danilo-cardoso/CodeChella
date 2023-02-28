@@ -41,7 +41,7 @@ content: url(../img/arrow_drop_down.png);
 }
 
 .perguntas__texto {
-    color: #444444;
+    color: var(--cinza-texto);
     background-color: #C8DEEF;
     padding: 1rem;
     list-style: disc;

@@ -6,12 +6,14 @@
 @import url(lineup.css);
 @import url(mapa.css);
 @import url(perguntas.css);
+@import url(formulario.css);
 
 :root {
     --background-header: #4650BD;
-    --branco-texto: #FFFFFF;
+    --branco-texto: #ffffff;
     --background-gradiente: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
     --verde-botao: #008364;
+    --cinza-texto: #444444;
 
     --fonte-principal: 'Raleway', sans-serif;
     --fonte-secundaria: 'Calistoga', sans-serif;

@@ -1,0 +1,52 @@
+.secao-formulario {
+    padding: 2rem 1.5rem;
+    color: var(--cinza-texto);
+}
+
+.secao-formulario__titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: var(--tamanho-secundario);
+    line-height: 2.6rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.formulario {   
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formulario__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formulario__texto {
+    font-weight: 700;
+    font-size: var(--tamanho-secundario);
+    line-height: 2.35rem;
+}
+
+#nome {
+    height: 3rem;
+}
+
+#email, #tipo-ingresso, #data {
+    height: 4rem;
+}
+
+.formulario__botao {
+    align-self: center;
+    text-align: start;
+    width: 10.25rem;
+    height: 4rem;
+    padding: 0.5rem 1.5rem;
+    color: var(--branco-texto);
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px #000000;
+    font-weight: 700;
+    background: var(--background-header) url(../img/setinha.svg) no-repeat;
+    background-position: top 50% right 1rem;
+}

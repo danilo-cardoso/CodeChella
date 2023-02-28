@@ -4,6 +4,7 @@
 @import url(banner.css);
 @import url(datas.css);
 @import url(lineup.css);
+@import url(mapa.css);
 
 :root {
     --background-header: #4650BD;

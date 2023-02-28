@@ -17,6 +17,7 @@
 }
 
 .lineup__subtitulo {
+    display: inline-block;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
     padding: 1rem 0.8rem;
@@ -58,4 +59,34 @@
 .item4 {
     font-weight: 500;
     line-height: 2.35rem;
+}
+
+.lineup__imagem--tablet {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .lineup__titulo {
+        font-size: 4rem;
+    }
+
+    .lineup__subtitulo {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    .lineup__item {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .lineup__imagem--tablet {
+        display: block;
+        width: 100%;
+    }
+
+    .lineup__imagem {
+        display: none;
+    }
 }

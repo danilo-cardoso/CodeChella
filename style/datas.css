@@ -36,6 +36,7 @@
     .datas__imagem--tablet {
         display: block;
         margin: auto;
+        padding-bottom: 1rem;
     }
 
     .datas__imagem {

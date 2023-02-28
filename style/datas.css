@@ -3,6 +3,10 @@
     padding: 2rem 1.5rem;
 }
 
+.datas__imagem--tablet {
+    display: none;
+}
+
 .datas__titulo {
     font-size: var(--tamanho-secundario);
     font-weight: 700;
@@ -20,6 +24,29 @@
     display: block;
     box-shadow: 4px 4px 0px #444444;
     padding: 0.5rem 2.75rem;
-    width: 62.2vw;
+    width: 224px;
     text-align: start;
+}
+
+@media screen and (min-width: 768px) {
+    .datas {
+        padding: 2rem 3.75rem;
+    }
+
+    .datas__imagem--tablet {
+        display: block;
+        margin: auto;
+    }
+
+    .datas__imagem {
+        display: none;
+    }
+
+    .datas__texto {
+        padding-bottom: 1.5rem;
+    }
+
+    .datas__botao {
+        margin: 0 auto 2rem auto;
+    }
 }

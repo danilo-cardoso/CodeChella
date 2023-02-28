@@ -5,6 +5,7 @@
 @import url(datas.css);
 @import url(lineup.css);
 @import url(mapa.css);
+@import url(perguntas.css);
 
 :root {
     --background-header: #4650BD;

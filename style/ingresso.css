@@ -21,3 +21,14 @@
     justify-content: space-between;
     padding-bottom: 2rem;
 }
+
+@media screen and (min-width: 768px) {
+    .meu-ingresso {
+        padding: 4rem 3.75rem;
+    }
+
+    .ingresso__imagem {
+        width: 60%;
+        padding-bottom: 2rem;
+    }
+}

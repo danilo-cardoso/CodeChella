@@ -7,6 +7,7 @@
 @import url(mapa.css);
 @import url(perguntas.css);
 @import url(formulario.css);
+@import url(ingresso.css);
 
 :root {
     --background-header: #4650BD;

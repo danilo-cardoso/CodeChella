@@ -1,0 +1,23 @@
+.meu-ingresso {
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.meu-ingresso__titulo, .ingresso__nome {
+    font-size: var(--tamanho-secundario);
+    font-weight: 700;
+    line-height: 2.35rem;
+    padding-bottom: 1rem;
+}
+
+.meu-ingresso__container {
+    background: var(--background-gradiente);
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.ingresso__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}

@@ -70,4 +70,27 @@
     .datas__conteudo {
         text-align: left;
     }
+
+    .setores__conteudo {
+        display: flex;
+        padding: 3rem 7.5rem;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .setores .datas__titulo {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .setores__item {
+        display: block;
+        padding: 0;
+        width: 24rem;
+    }
+
+    .setores__item:nth-child(even) {
+        padding-top: 9%;
+    }
 }

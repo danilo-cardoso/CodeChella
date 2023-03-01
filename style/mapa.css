@@ -53,3 +53,19 @@
         align-self: flex-start;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .mapa {
+        display: flex;
+        padding: 2rem 7.5rem;
+        gap: 3rem;
+    }
+
+    .mapa__imagem {
+        width: 47.9%;
+    }
+
+    .mapa__conteudo {
+        align-items: start;
+    }
+}

@@ -32,3 +32,23 @@
         padding-bottom: 2rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .meu-ingresso {
+        padding: 4rem 22.5%;
+    }
+
+    .meu-ingresso__titulo br{
+        display: none;
+    }
+
+    .ingresso__conteudo {
+        display: flex;
+        text-align: left;
+    }
+
+    .ingresso__imagem {
+        width: 40%;
+        margin-left: -2rem;
+    }
+}

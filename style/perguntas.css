@@ -71,3 +71,9 @@ content: url(../img/arrow_drop_down.png);
         font-size: 3rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .perguntas {
+        padding: 3rem 15.42%;
+    }
+}

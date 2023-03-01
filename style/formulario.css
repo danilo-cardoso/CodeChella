@@ -70,3 +70,24 @@
         width: 26rem;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .formulario {
+        width: 55.21vw;
+        margin: auto;
+        display: grid;
+        grid: repeat(3, auto) / repeat(2, 50%);
+    }
+
+    .formulario__container:nth-child(1), .formulario__container:nth-child(2), .formulario__botao {
+        grid-column: 1/3;
+    }
+
+    #data {
+        width: auto;
+    }
+
+    .formulario__botao {
+        justify-self: center;
+    }
+}

@@ -51,3 +51,23 @@
         margin: 0 auto 2rem auto;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .datas {
+        display: flex;
+        padding: 4rem 7.5rem;
+        gap: 3rem;
+    }
+
+    .exp__conteudo:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    
+    .exp__conteudo:nth-child(odd)>.datas__conteudo {
+        text-align: right;
+    }
+
+    .datas__conteudo {
+        text-align: left;
+    }
+}

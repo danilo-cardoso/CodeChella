@@ -30,10 +30,12 @@
         <section class="datas">
             <img src="img/tablets/Homepage1.svg" alt="Show da banda System of a DOM" class="datas__imagem--tablet">
             <img src="img/Homepage1.svg" alt="Show da banda System of a DOM" class="datas__imagem">
-            <h2 class="datas__titulo">< 11 e 12 de Março ><br> Aluródromo de São Paulo</h2>
-            <p class="datas__texto">Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
-            <span class="datas__botao"><a class="datas__link" href="#">Comprar Ingresso!</a></span>
-        </section>
+            <div class="datas__conteudo">
+                <h2 class="datas__titulo">< 11 e 12 de Março ><br> Aluródromo de São Paulo</h2>
+                <p class="datas__texto">Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
+                <span class="datas__botao"><a class="datas__link" href="#">Comprar Ingresso!</a></span>
+            </div>
+            </section>
         <section class="lineup">
             <h2 class="lineup__titulo">/Line-Up/</h2>
             <div class="lineup__container">
@@ -92,7 +94,7 @@
                         <p>CloudPlay</p>
                         <p>Dev Lovato</p>
                     </li>
-                    <li class="lineup__item item4">
+                    <li class="lineup__item item4" id="lineup__lista--last">
                         <p>Kylie MiLOG</p>
                         <p>Jenkins Brothers</p>
                         <p>Rubycat Dolls</p>
@@ -104,25 +106,27 @@
         </section>
     </main>
     <footer class="rodape">
-        <img class="rodape__titulo" src="img/Logo1-1.svg" alt="Logo do CodeChella">
-        <div class="rodape__conteudo">
-            <p class="rodape__texto">Acesse nossas redes:</p>
-            <ul class="rodape__lista">
-                <li class="rodape__lista__item">
-                    <a href=""><img src="img/whatsapp.svg" alt="Logo do Whatsapp"></a>
-                </li>
-                <li class="rodape__lista__item">
-                    <a href=""><img src="img/twitch.svg" alt="logo da twitch"></a>
-                </li>
-                <li class="rodape__lista__item">
-                    <a href=""><img src="img/instagram.svg" alt="Logo do Instagram"></a>
-                </li>
-                <li class="rodape__lista__item">
-                    <a href=""><img src="img/twitter.svg" alt="Logo do Twitter"></a>
-                </li>
-            </ul>
+        <div class="rodape__container">
+            <img class="rodape__titulo" src="img/Logo1-1.svg" alt="Logo do CodeChella">
+            <div class="rodape__conteudo">
+                <p class="rodape__texto">Acesse nossas redes:</p>
+                <ul class="rodape__lista">
+                    <li class="rodape__lista__item">
+                        <a href=""><img src="img/whatsapp.svg" alt="Logo do Whatsapp"></a>
+                    </li>
+                    <li class="rodape__lista__item">
+                        <a href=""><img src="img/twitch.svg" alt="logo da twitch"></a>
+                    </li>
+                    <li class="rodape__lista__item">
+                        <a href=""><img src="img/instagram.svg" alt="Logo do Instagram"></a>
+                    </li>
+                    <li class="rodape__lista__item">
+                        <a href=""><img src="img/twitter.svg" alt="Logo do Twitter"></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <p class="rodape__texto">Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+        <p class="rodape__texto">Desenvolvido por Alura.<br> Projeto fictício sem fins comerciais.</p>
     </footer>
 </body>
 </html>

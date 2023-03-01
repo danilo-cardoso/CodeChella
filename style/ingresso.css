@@ -22,6 +22,12 @@
     padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 360px) {
+    .ingresso__imagem {
+    margin-left: -2.5rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .meu-ingresso {
         padding: 4rem 3.75rem;

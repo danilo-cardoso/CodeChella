@@ -32,6 +32,12 @@
     border-bottom: 1px solid var(--branco-texto);
 }
 
+@media screen and (max-width: 360px) {
+    .cabecalho__imagem {
+    width: 65vw;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .cabecalho {
         flex-direction: column;

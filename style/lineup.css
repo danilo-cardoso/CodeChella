@@ -61,6 +61,10 @@
     line-height: 2.35rem;
 }
 
+.lineup__imagem {
+    width: 100vw;
+}
+
 .lineup__imagem--tablet {
     display: none;
 }

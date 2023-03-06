@@ -58,6 +58,10 @@
     .menu__lista__item {
         border: none;
     }
+
+    .ativo {
+        font-size: 1.75rem;
+    }
 }
 
 @media screen and (min-width: 1440px) {

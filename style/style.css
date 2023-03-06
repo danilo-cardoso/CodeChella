@@ -11,6 +11,7 @@
 
 :root {
     --background-header: #4650BD;
+    --botao-hover: #1E2570;
     --branco-texto: #ffffff;
     --background-gradiente: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
     --verde-botao: #008364;

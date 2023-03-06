@@ -32,12 +32,12 @@
 .perguntas__subtitulo::after {
     content: url(../img/arrow_drop_left.png);
     position: absolute;
-    top: 30%;
+    top: 0.6rem;
     right: 1.75rem;
 }
 
 .perguntas__item[open] .perguntas__subtitulo:after {
-content: url(../img/arrow_drop_down.png);
+    content: url(../img/arrow_drop_down.png);
 }
 
 .perguntas__texto {

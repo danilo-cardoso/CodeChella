@@ -29,18 +29,18 @@
         </section>
         <section class="secao-formulario">
             <h2 class="secao-formulario__titulo">Preencha o formulário a seguir:</h2>
-            <form action="./CompraFinalizada.html" class="formulario">
+            <form action="./CompraFinalizada.html" class="formulario" data-formulario>
                 <div class="formulario__container">
                     <label for="nome" class="formulario__texto">Nome completo:</label>
-                    <input required type="text" id="nome" name="nome" minlength="4">
+                    <input required type="text" id="nome" name="nome" minlength="4" data-nome>
                 </div>
                 <div class="formulario__container">
                     <label for="email" class="formulario__texto">Email:</label>
-                    <input required type="email" id="email" name="email" minlength="7">
+                    <input required type="email" id="email" name="email" minlength="7" data-email>
                 </div>
                 <div class="formulario__container">
                     <label for="tipo-ingresso" class="formulario__texto">Tipo de ingresso:</label>
-                    <select required name="tipo-ingresso" id="tipo-ingresso">
+                    <select required name="tipo-ingresso" id="tipo-ingresso" data-ingresso>
                         <option value="">--Tipo de ingresso--</option>
                         <option value="Cadeiras Meia Entrada">Cadeiras - Meia Entrada</option>
                         <option value="Pista Meia Entrada">Pista - Meia Entrada</option>
@@ -54,7 +54,7 @@
                     <label for="data" class="formulario__texto">Data de nascimento:</label>
                     <input required type="date" id="data" name="data">
                 </div>
-                <input type="submit" value="Avançar!" class="formulario__botao">
+                <input type="submit" value="Avançar!" class="formulario__botao" data-enviar>
             </form>
         </section>
     </main>

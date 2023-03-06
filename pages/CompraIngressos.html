@@ -32,19 +32,22 @@
             <form action="./CompraFinalizada.html" class="formulario">
                 <div class="formulario__container">
                     <label for="nome" class="formulario__texto">Nome completo:</label>
-                    <input required type="text" id="nome" name="nome">
+                    <input required type="text" id="nome" name="nome" minlength="4">
                 </div>
                 <div class="formulario__container">
                     <label for="email" class="formulario__texto">Email:</label>
-                    <input required type="email" id="email" name="email">
+                    <input required type="email" id="email" name="email" minlength="7">
                 </div>
                 <div class="formulario__container">
                     <label for="tipo-ingresso" class="formulario__texto">Tipo de ingresso:</label>
                     <select required name="tipo-ingresso" id="tipo-ingresso">
                         <option value="">--Tipo de ingresso--</option>
-                        <option value="Meia entrada">Meia entrada</option>
-                        <option value="Ingresso comum">Ingresso comum</option>
-                        <option value="Ingresso VIP">Ingresso VIP</option>
+                        <option value="Cadeiras Meia Entrada">Cadeiras - Meia Entrada</option>
+                        <option value="Pista Meia Entrada">Pista - Meia Entrada</option>
+                        <option value="VIP Meia Entrada">Pista VIP - Meia Entrada</option>
+                        <option value="Cadeiras">Cadeiras</option>
+                        <option value="Pista">Pista</option>
+                        <option value="Pista VIP">Pista VIP</option>
                     </select>
                 </div>
                 <div class="formulario__container">

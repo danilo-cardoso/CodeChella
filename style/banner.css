@@ -1,18 +1,51 @@
-.banner__imagem--desktop {
-    display: none;
+.banner {
+    padding: 7.45rem 0;
+    position: relative;
 }
 
-.banner__imagem {
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100vw;
+    height: 77.5vw;
+    z-index: 1;
+    opacity: 0.25;
+    background-position: center;
+    background-size: cover;
 }
 
-@media screen and (min-width: 1440px) {
-    .banner__imagem--desktop {
-        display: block;
-        width: 100vw;
-    }
+.banner__titulo {
+    font-size: var(--tamanho-secundario);
+    font-family: var(--fonte-secundaria);
+    line-height: 2.6rem;
+    text-align: center;
+    z-index: 2;
+    padding: 0 1.5rem;
+}
 
-    .banner__imagem {
-        display: none;
-    }
+.banner--home {
+    background-image: url(../img/boreal-homepage.jpg);
+}
+
+.banner--experiencia::before {
+    background-image: url(../img/banner-experiencia.png);
+}
+
+.banner--setores::before {
+    background-image: url(../img/banner-setores.png);
+}
+
+.banner--informacoes::before {
+    background-image: url(../img/banner-informacoes.png);
+}
+
+.banner--ingressos::before {
+    background-image: url(../img/banner-compra-ingresso.png);
+}
+
+.banner--compra::before {
+    background-image: url(../img/banner-compra-finalizada.png);
+    height: 90vw;
 }

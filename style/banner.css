@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    height: 77.5vw;
+    height: 281px;
     z-index: 1;
     opacity: 0.25;
     background-position: center;
@@ -26,7 +26,9 @@
 }
 
 .banner--home {
-    background-image: url(../img/boreal-homepage.jpg);
+    background-image: url(../img/boreal-homepage.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .banner--experiencia::before {
@@ -47,5 +49,32 @@
 
 .banner--compra::before {
     background-image: url(../img/banner-compra-finalizada.png);
-    height: 90vw;
+    height: 324px;
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 384px;
+        padding: 0;
+    }
+
+    .banner__titulo {
+        font-size: 4rem;
+        line-height: 5.2rem;
+    }
+
+    .banner::before {
+        height: 384px;
+        background-position: bottom;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner, .banner::before {
+        height: 407px;
+        background-position: center;
+    }
 }

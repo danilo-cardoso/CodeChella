@@ -20,10 +20,10 @@
 }
 
 .datas__botao {
-    margin-top: 2rem;
+    margin: 2rem auto 0 auto;
     background-image: url(../img/local_activity.svg);
     background-repeat: no-repeat;
-    background-position: top 50% right 2.75rem;
+    background-position: top 50% right 1.75rem;
     background-color: var(--background-header);
     border-radius: 16px;
     display: block;
